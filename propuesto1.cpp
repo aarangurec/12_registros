@@ -4,15 +4,10 @@ using namespace std;
 struct Empleado{
         string Nombres;
         string sexo;
-        float sueldo;
+        float sueldo;}
 int main(){
 
 
 
     return 0;
     }
-
-
-
-
-
