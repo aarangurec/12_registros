@@ -7,7 +7,6 @@ struct Libro{
     string autor;
     string editorial;
     int anioPublicacion;
-
 };
 int main(){
     int n; 
