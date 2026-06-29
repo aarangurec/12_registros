@@ -52,7 +52,9 @@ int main(){
         if(e[i].sueldo==Menor) {
         cout<<e[i].Nombre<<endl;
         cout<<e[i].sexo<<endl;
-        cout<<e[i].sueldo<<endl;}
+        cout<<e[i].sueldo<<endl;
+        cout<<"----------------------"<<endl;
+}
         }
 
     return 0;
