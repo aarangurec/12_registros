@@ -23,6 +23,14 @@ int main (){
         cin.ignore();
     }
     system("pause");
+    cout<<"=====LISTA DE PERSONAS====="<<endl;
+    for (int i=0; i<n; i++){
+        cout<<"PERSONA: "<<"["<<i+1<<"]"<<endl;
+        cout<<p[i].DNI<<endl;
+        cout<<p[i].Nombre<<endl;
+        cout<<p[i].edad<<endl;
+    }
+    
 
 
     return 0;
