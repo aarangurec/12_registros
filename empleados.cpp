@@ -34,7 +34,7 @@ int main(){
 	}
 	for(int i=0; i<n; i++){
 		e[i].suma=0;
-		for (int j; i<12; j++){
+		for (int j; j<12; j++){
 			e[i].suma=e[i].suma+e[i].ventas[j];
 		}
 	}
@@ -46,12 +46,12 @@ int main(){
 			nume=i;
 		}
 	}
-	cout<<"====EMPLEADOS CON MAYORES VENTAS DURANTE EL AÑO===="<<endl;
+	cout<<"====EMPLEADOS CON MAYORES VENTAS DURANTE EL ANO===="<<endl;
 	for (int i=0; i<n; i++){
 		e[nume].numero=e[i].numero;
 	    cout<<"EMPLEADO NRO ["<<i+1<<"]"<<endl;
 	}
-	cout<<"===NOMBRES DE LOS EMPLEADOS CON MAYORES VENTAS EN EL AÑO==="<<endl;
+	cout<<"===NOMBRES DE LOS EMPLEADOS CON MAYORES VENTAS EN EL AnO==="<<endl;
 	for (int i=0; i<n; i++){
 		e[nume].nombre=e[i].nombre;
 	    cout<<e[i].nombre<<endl;
