@@ -42,5 +42,12 @@ int main (){
         	cout<<p[i].edad<<endl;
 	    }
 	}
+    cout<<"===EL PROMEDIO DE EDADES ES: ==="<<endl;
+	float cont=0, prom=0;
+	for(int i=0; i<n; i++){
+		cont=cont+p[i].edad;	
+	}
+	prom=cont/n;
+	cout<<prom;
 	return 0;
 }
