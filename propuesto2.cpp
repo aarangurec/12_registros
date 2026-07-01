@@ -11,6 +11,9 @@ int main (){
     Persona p[100];
     cout<<"El nro de Personas: "<<endl;
     cin>>n;
+    if(n<0){
+    	cout<<"====NO HAY PERSONAS PARA REGISTRAR===="<<endl;
+	}
     cin.ignore();
     for(int i=0; i<n; i++){
         cout<<"Persona"<<"["<<i+1<<"]"<<endl;
@@ -30,8 +33,14 @@ int main (){
         cout<<p[i].Nombre<<endl;
         cout<<p[i].edad<<endl;
     }
-    
-
-
-    return 0;
+    cout<<"====PERSONAS MAYORES A 50===="<<endl;
+    for(int i=0;i<n;i++){
+    	if(p[i].edad>50){
+    		cout<<"PERSONA: "<<"["<<i+1<<"]"<<endl;
+        	cout<<p[i].DNI<<endl;
+        	cout<<p[i].Nombre<<endl;
+        	cout<<p[i].edad<<endl;
+	    }
+	}
+	return 0;
 }
